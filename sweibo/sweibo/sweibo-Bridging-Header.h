@@ -6,3 +6,5 @@
 #import "UIImageView+WebCache.h"
 #import "MJRefresh.h"
 #import "NSDate+CQ.h"
+#import "MJPhotoBrowser.h"
+#import "MJPhoto.h"

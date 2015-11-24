@@ -39,11 +39,14 @@ class CQUITableCellTableViewCell: UITableViewCell {
     
     @IBOutlet weak var retweetHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var picRe: UIView!
+    var status:CQStatus?
+    var statusRE:CQStatus?
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
     func updatePics(data:CQStatus) {
+        self.status = data
         let margin:CGFloat = 8
         let cols = data.pic_urls?.count == 4 ? 2 : 3
         if data.pic_urls == nil || data.pic_urls?.count == 0 {
@@ -56,7 +59,13 @@ class CQUITableCellTableViewCell: UITableViewCell {
         for photo in data.pic_urls! {
             let cq:CQPhoto = photo as! CQPhoto
             // 初始化图片
+            // 初始化图片
             let pic:UIImageView = UIImageView()
+            // 添加点按手势
+            pic.tag = i
+            pic.userInteractionEnabled = true
+            let tap = UITapGestureRecognizer.init(target: self, action: "tapMain:")
+            pic.addGestureRecognizer(tap)
             let x:CGFloat = margin + (CGFloat)(i % cols) * (margin + w)
             let y:CGFloat = margin + (CGFloat)((Int)(i / cols)) * (margin + w)
             pic.frame = CGRectMake(x , y, w, w)
@@ -68,6 +77,7 @@ class CQUITableCellTableViewCell: UITableViewCell {
         self.picMainHeightConstaint.constant = (CGFloat)(row) * (margin + w)
     }
     func updateRePics(data:CQStatus) {
+        self.statusRE = data
         let margin:CGFloat = 8
         let cols = data.pic_urls?.count == 4 ? 2 : 3
         if data.pic_urls == nil || data.pic_urls?.count == 0 {
@@ -80,6 +90,11 @@ class CQUITableCellTableViewCell: UITableViewCell {
             let cq:CQPhoto = photo as! CQPhoto
             // 初始化图片
             let pic:UIImageView = UIImageView()
+            // 添加点按手势
+            pic.tag = i
+            pic.userInteractionEnabled = true
+            let tap = UITapGestureRecognizer.init(target: self, action: "tapRE:")
+            pic.addGestureRecognizer(tap)
             let w:CGFloat = (UIScreen.mainScreen().bounds.width - (CGFloat)(cols+1) * margin ) / (CGFloat)(cols)
             let x:CGFloat = margin + (CGFloat)(i % cols) * (margin + w)
             let y:CGFloat = margin + (CGFloat)((Int)(i / cols)) * (margin + w)
@@ -90,7 +105,37 @@ class CQUITableCellTableViewCell: UITableViewCell {
         }
         
     }
+    func tapRE(tap:UITapGestureRecognizer) {
+        self.tap(tap,urls: (self.statusRE?.pic_urls)!)
+    }
+    func tapMain(tap:UITapGestureRecognizer) {
+        self.tap(tap,urls: (self.status?.pic_urls)!)
+    }
+    func tap(tap:UITapGestureRecognizer,urls:NSArray) {
+        //点击
+        print("点击")
+        let tapView:UIImageView = tap.view as! UIImageView
+        var i:Int32 = 0
+        let arrM:NSMutableArray = NSMutableArray()
+        for pp in (urls) {
+            let photo:CQPhoto = pp as! CQPhoto
+            let p:MJPhoto = MJPhoto()
+            var urlStr:NSString = (photo.thumbnail_pic?.absoluteString.textToNSString())!
+            urlStr = urlStr.stringByReplacingOccurrencesOfString("thumbnail", withString: "bmiddle")
+            p.url = NSURL.init(string: urlStr as String)
+            p.index = i
+            p.srcImageView = tapView
+            arrM.addObject(p)
+            i++
+        }
+        // 弹出浏览器
+        let brower = MJPhotoBrowser()
+        brower.photos = arrM as [AnyObject]
+        brower.currentPhotoIndex = (UInt)(tapView.tag)
+        brower.show()
+    }
     func updateDatas(data:CQStatus) {
+        self.status = data
         // 先清空
         for v in self.picMain.subviews {
             v.removeFromSuperview()

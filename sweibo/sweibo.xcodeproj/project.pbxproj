@@ -19,8 +19,6 @@
 		181CF04E1BF9B07800D7EA32 /* CQDiscoverControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CF04D1BF9B07800D7EA32 /* CQDiscoverControllerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		181CF0501BF9B4D400D7EA32 /* CQTextSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CF04F1BF9B4D400D7EA32 /* CQTextSearch.swift */; settings = {ASSET_TAGS = (); }; };
 		182ABDDB1BFDEA1F00BF9926 /* MBProgressHUD+CQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ABDDA1BFDEA1F00BF9926 /* MBProgressHUD+CQ.m */; settings = {ASSET_TAGS = (); }; };
-		182ABEAE1BFE166500BF9926 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182ABEA11BFE162900BF9926 /* Alamofire.framework */; };
-		182ABEAF1BFE166500BF9926 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182ABEA11BFE162900BF9926 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		182ABEB41BFE1FE700BF9926 /* CQAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182ABEB31BFE1FE700BF9926 /* CQAccount.swift */; settings = {ASSET_TAGS = (); }; };
 		182EF55D1BFB1A3C00212D8B /* CQCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EF55B1BFB1A3C00212D8B /* CQCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		184A2EE81C00367200945FFF /* CQNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A2EE71C00367200945FFF /* CQNet.swift */; settings = {ASSET_TAGS = (); }; };
@@ -57,6 +55,16 @@
 		188D167A1C01FF620067B2C5 /* CQUnread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D16791C01FF620067B2C5 /* CQUnread.swift */; settings = {ASSET_TAGS = (); }; };
 		18A3CA9F1C03642800877A6C /* CQString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CA9E1C03642800877A6C /* CQString.swift */; settings = {ASSET_TAGS = (); }; };
 		18C5A4BB1C043A5500BBDB77 /* NSDate+CQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5A4BA1C043A5500BBDB77 /* NSDate+CQ.m */; settings = {ASSET_TAGS = (); }; };
+		18C5A50D1C04991000BBDB77 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C5A5001C0498E200BBDB77 /* Alamofire.framework */; };
+		18C5A50E1C04991900BBDB77 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18C5A5001C0498E200BBDB77 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18CC31061C04A8EA00CC8911 /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC30F81C04A8EA00CC8911 /* MJPhoto.m */; settings = {ASSET_TAGS = (); }; };
+		18CC31071C04A8EA00CC8911 /* MJPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CC30F91C04A8EA00CC8911 /* MJPhotoBrowser.bundle */; settings = {ASSET_TAGS = (); }; };
+		18CC31081C04A8EA00CC8911 /* MJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC30FB1C04A8EA00CC8911 /* MJPhotoBrowser.m */; settings = {ASSET_TAGS = (); }; };
+		18CC31091C04A8EA00CC8911 /* MJPhotoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC30FD1C04A8EA00CC8911 /* MJPhotoLoadingView.m */; settings = {ASSET_TAGS = (); }; };
+		18CC310A1C04A8EA00CC8911 /* MJPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC30FF1C04A8EA00CC8911 /* MJPhotoProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		18CC310B1C04A8EA00CC8911 /* MJPhotoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31011C04A8EA00CC8911 /* MJPhotoToolbar.m */; settings = {ASSET_TAGS = (); }; };
+		18CC310C1C04A8EA00CC8911 /* MJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31031C04A8EA00CC8911 /* MJPhotoView.m */; settings = {ASSET_TAGS = (); }; };
+		18CC310D1C04A8EA00CC8911 /* SDWebImageManager+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC31051C04A8EA00CC8911 /* SDWebImageManager+MJ.m */; settings = {ASSET_TAGS = (); }; };
 		18CD9D181BF8378900D5AA2B /* CQUITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD9D171BF8378900D5AA2B /* CQUITabBar.swift */; settings = {ASSET_TAGS = (); }; };
 		18CD9D1F1BF8446C00D5AA2B /* CQMessageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD9D1E1BF8446C00D5AA2B /* CQMessageControllerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		18FBC94E1BF5CBB40035A534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBC94D1BF5CBB40035A534 /* AppDelegate.swift */; };
@@ -68,61 +76,54 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		182ABEA01BFE162900BF9926 /* PBXContainerItemProxy */ = {
+		18C5A4FF1C0498E200BBDB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
+			containerPortal = 18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
 			remoteInfo = "Alamofire iOS";
 		};
-		182ABEA21BFE162900BF9926 /* PBXContainerItemProxy */ = {
+		18C5A5011C0498E200BBDB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
+			containerPortal = 18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
 			remoteInfo = "Alamofire iOS Tests";
 		};
-		182ABEA41BFE162900BF9926 /* PBXContainerItemProxy */ = {
+		18C5A5031C0498E200BBDB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
+			containerPortal = 18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
 			remoteInfo = "Alamofire OSX";
 		};
-		182ABEA61BFE162900BF9926 /* PBXContainerItemProxy */ = {
+		18C5A5051C0498E200BBDB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
+			containerPortal = 18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
 			remoteInfo = "Alamofire OSX Tests";
 		};
-		182ABEA81BFE162900BF9926 /* PBXContainerItemProxy */ = {
+		18C5A5071C0498E200BBDB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
+			containerPortal = 18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
 			remoteInfo = "Alamofire tvOS";
 		};
-		182ABEAA1BFE162900BF9926 /* PBXContainerItemProxy */ = {
+		18C5A5091C0498E200BBDB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
+			containerPortal = 18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
 			remoteInfo = "Alamofire tvOS Tests";
 		};
-		182ABEAC1BFE162900BF9926 /* PBXContainerItemProxy */ = {
+		18C5A50B1C0498E200BBDB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
+			containerPortal = 18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E4202FE01B667AA100C997FB;
 			remoteInfo = "Alamofire watchOS";
-		};
-		182ABEB01BFE166500BF9926 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
 		};
 		18FBC95F1BF5CBB40035A534 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -147,7 +148,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				182ABEAF1BFE166500BF9926 /* Alamofire.framework in Embed Frameworks */,
+				18C5A50E1C04991900BBDB77 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,7 +169,6 @@
 		181CF04F1BF9B4D400D7EA32 /* CQTextSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQTextSearch.swift; sourceTree = "<group>"; };
 		182ABDD91BFDEA1F00BF9926 /* MBProgressHUD+CQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+CQ.h"; sourceTree = "<group>"; };
 		182ABDDA1BFDEA1F00BF9926 /* MBProgressHUD+CQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+CQ.m"; sourceTree = "<group>"; };
-		182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		182ABEB31BFE1FE700BF9926 /* CQAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQAccount.swift; sourceTree = "<group>"; };
 		182EF55B1BFB1A3C00212D8B /* CQCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQCollectionViewController.swift; sourceTree = "<group>"; };
 		184A2EE71C00367200945FFF /* CQNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQNet.swift; sourceTree = "<group>"; };
@@ -233,6 +233,23 @@
 		18A3CA9E1C03642800877A6C /* CQString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQString.swift; sourceTree = "<group>"; };
 		18C5A4B91C043A5500BBDB77 /* NSDate+CQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CQ.h"; sourceTree = "<group>"; };
 		18C5A4BA1C043A5500BBDB77 /* NSDate+CQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CQ.m"; sourceTree = "<group>"; };
+		18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		18CC30F71C04A8EA00CC8911 /* MJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhoto.h; sourceTree = "<group>"; };
+		18CC30F81C04A8EA00CC8911 /* MJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhoto.m; sourceTree = "<group>"; };
+		18CC30F91C04A8EA00CC8911 /* MJPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJPhotoBrowser.bundle; sourceTree = "<group>"; };
+		18CC30FA1C04A8EA00CC8911 /* MJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoBrowser.h; sourceTree = "<group>"; };
+		18CC30FB1C04A8EA00CC8911 /* MJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoBrowser.m; sourceTree = "<group>"; };
+		18CC30FC1C04A8EA00CC8911 /* MJPhotoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoLoadingView.h; sourceTree = "<group>"; };
+		18CC30FD1C04A8EA00CC8911 /* MJPhotoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoLoadingView.m; sourceTree = "<group>"; };
+		18CC30FE1C04A8EA00CC8911 /* MJPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoProgressView.h; sourceTree = "<group>"; };
+		18CC30FF1C04A8EA00CC8911 /* MJPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoProgressView.m; sourceTree = "<group>"; };
+		18CC31001C04A8EA00CC8911 /* MJPhotoToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoToolbar.h; sourceTree = "<group>"; };
+		18CC31011C04A8EA00CC8911 /* MJPhotoToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoToolbar.m; sourceTree = "<group>"; };
+		18CC31021C04A8EA00CC8911 /* MJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoView.h; sourceTree = "<group>"; };
+		18CC31031C04A8EA00CC8911 /* MJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoView.m; sourceTree = "<group>"; };
+		18CC31041C04A8EA00CC8911 /* SDWebImageManager+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDWebImageManager+MJ.h"; sourceTree = "<group>"; };
+		18CC31051C04A8EA00CC8911 /* SDWebImageManager+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageManager+MJ.m"; sourceTree = "<group>"; };
+		18CC310E1C04A93E00CC8911 /* sweibo-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sweibo-prefix.pch"; sourceTree = "<group>"; };
 		18CD9D171BF8378900D5AA2B /* CQUITabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQUITabBar.swift; sourceTree = "<group>"; };
 		18CD9D1E1BF8446C00D5AA2B /* CQMessageControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQMessageControllerViewController.swift; sourceTree = "<group>"; };
 		18FBC94A1BF5CBB40035A534 /* sweibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,7 +271,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182ABEAE1BFE166500BF9926 /* Alamofire.framework in Frameworks */,
+				18C5A50D1C04991000BBDB77 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,20 +389,6 @@
 			name = model;
 			sourceTree = "<group>";
 		};
-		182ABE971BFE162900BF9926 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				182ABEA11BFE162900BF9926 /* Alamofire.framework */,
-				182ABEA31BFE162900BF9926 /* Alamofire iOS Tests.xctest */,
-				182ABEA51BFE162900BF9926 /* Alamofire.framework */,
-				182ABEA71BFE162900BF9926 /* Alamofire OSX Tests.xctest */,
-				182ABEA91BFE162900BF9926 /* Alamofire.framework */,
-				182ABEAB1BFE162900BF9926 /* Alamofire tvOS Tests.xctest */,
-				182ABEAD1BFE162900BF9926 /* Alamofire.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		182ABEB21BFE1FCC00BF9926 /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,11 +497,13 @@
 		188C2F3D1BFB849900EAD81C /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				18CC30F61C04A8EA00CC8911 /* MJPhotoBrowser1 */,
+				18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */,
 				184A2F781C00C2F800945FFF /* MJRefresh */,
 				184A2F401C005F4900945FFF /* SDWebImage */,
-				182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */,
 				18B0B9FC1BFCD8E500CC224E /* MBProgressHUD */,
 				188C2F3E1BFB84B000EAD81C /* sweibo-Bridging-Header.h */,
+				18CC310E1C04A93E00CC8911 /* sweibo-prefix.pch */,
 				18C5A4B91C043A5500BBDB77 /* NSDate+CQ.h */,
 				18C5A4BA1C043A5500BBDB77 /* NSDate+CQ.m */,
 			);
@@ -514,6 +519,42 @@
 				182ABDDA1BFDEA1F00BF9926 /* MBProgressHUD+CQ.m */,
 			);
 			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		18C5A4F61C0498E200BBDB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C5A5001C0498E200BBDB77 /* Alamofire.framework */,
+				18C5A5021C0498E200BBDB77 /* Alamofire iOS Tests.xctest */,
+				18C5A5041C0498E200BBDB77 /* Alamofire.framework */,
+				18C5A5061C0498E200BBDB77 /* Alamofire OSX Tests.xctest */,
+				18C5A5081C0498E200BBDB77 /* Alamofire.framework */,
+				18C5A50A1C0498E200BBDB77 /* Alamofire tvOS Tests.xctest */,
+				18C5A50C1C0498E200BBDB77 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CC30F61C04A8EA00CC8911 /* MJPhotoBrowser1 */ = {
+			isa = PBXGroup;
+			children = (
+				18CC30F71C04A8EA00CC8911 /* MJPhoto.h */,
+				18CC30F81C04A8EA00CC8911 /* MJPhoto.m */,
+				18CC30F91C04A8EA00CC8911 /* MJPhotoBrowser.bundle */,
+				18CC30FA1C04A8EA00CC8911 /* MJPhotoBrowser.h */,
+				18CC30FB1C04A8EA00CC8911 /* MJPhotoBrowser.m */,
+				18CC30FC1C04A8EA00CC8911 /* MJPhotoLoadingView.h */,
+				18CC30FD1C04A8EA00CC8911 /* MJPhotoLoadingView.m */,
+				18CC30FE1C04A8EA00CC8911 /* MJPhotoProgressView.h */,
+				18CC30FF1C04A8EA00CC8911 /* MJPhotoProgressView.m */,
+				18CC31001C04A8EA00CC8911 /* MJPhotoToolbar.h */,
+				18CC31011C04A8EA00CC8911 /* MJPhotoToolbar.m */,
+				18CC31021C04A8EA00CC8911 /* MJPhotoView.h */,
+				18CC31031C04A8EA00CC8911 /* MJPhotoView.m */,
+				18CC31041C04A8EA00CC8911 /* SDWebImageManager+MJ.h */,
+				18CC31051C04A8EA00CC8911 /* SDWebImageManager+MJ.m */,
+			);
+			path = MJPhotoBrowser1;
 			sourceTree = "<group>";
 		};
 		18CD9D191BF83FE200D5AA2B /* view */ = {
@@ -626,7 +667,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				182ABEB11BFE166500BF9926 /* PBXTargetDependency */,
 			);
 			name = sweibo;
 			productName = sweibo;
@@ -706,8 +746,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 182ABE971BFE162900BF9926 /* Products */;
-					ProjectRef = 182ABE961BFE162900BF9926 /* Alamofire.xcodeproj */;
+					ProductGroup = 18C5A4F61C0498E200BBDB77 /* Products */;
+					ProjectRef = 18C5A4F51C0498E200BBDB77 /* Alamofire.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -720,53 +760,53 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		182ABEA11BFE162900BF9926 /* Alamofire.framework */ = {
+		18C5A5001C0498E200BBDB77 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 182ABEA01BFE162900BF9926 /* PBXContainerItemProxy */;
+			remoteRef = 18C5A4FF1C0498E200BBDB77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		182ABEA31BFE162900BF9926 /* Alamofire iOS Tests.xctest */ = {
+		18C5A5021C0498E200BBDB77 /* Alamofire iOS Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Alamofire iOS Tests.xctest";
-			remoteRef = 182ABEA21BFE162900BF9926 /* PBXContainerItemProxy */;
+			remoteRef = 18C5A5011C0498E200BBDB77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		182ABEA51BFE162900BF9926 /* Alamofire.framework */ = {
+		18C5A5041C0498E200BBDB77 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 182ABEA41BFE162900BF9926 /* PBXContainerItemProxy */;
+			remoteRef = 18C5A5031C0498E200BBDB77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		182ABEA71BFE162900BF9926 /* Alamofire OSX Tests.xctest */ = {
+		18C5A5061C0498E200BBDB77 /* Alamofire OSX Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Alamofire OSX Tests.xctest";
-			remoteRef = 182ABEA61BFE162900BF9926 /* PBXContainerItemProxy */;
+			remoteRef = 18C5A5051C0498E200BBDB77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		182ABEA91BFE162900BF9926 /* Alamofire.framework */ = {
+		18C5A5081C0498E200BBDB77 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 182ABEA81BFE162900BF9926 /* PBXContainerItemProxy */;
+			remoteRef = 18C5A5071C0498E200BBDB77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		182ABEAB1BFE162900BF9926 /* Alamofire tvOS Tests.xctest */ = {
+		18C5A50A1C0498E200BBDB77 /* Alamofire tvOS Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Alamofire tvOS Tests.xctest";
-			remoteRef = 182ABEAA1BFE162900BF9926 /* PBXContainerItemProxy */;
+			remoteRef = 18C5A5091C0498E200BBDB77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		182ABEAD1BFE162900BF9926 /* Alamofire.framework */ = {
+		18C5A50C1C0498E200BBDB77 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
-			remoteRef = 182ABEAC1BFE162900BF9926 /* PBXContainerItemProxy */;
+			remoteRef = 18C5A50B1C0498E200BBDB77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -776,6 +816,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC31071C04A8EA00CC8911 /* MJPhotoBrowser.bundle in Resources */,
 				18FBC9551BF5CBB40035A534 /* Assets.xcassets in Resources */,
 				1805F1341BFA26FF006777FF /* CQOneViewController.xib in Resources */,
 				1802DFBD1C030F6100D0559D /* CQUITableCellTableViewCell.xib in Resources */,
@@ -816,7 +857,9 @@
 				181CF0431BF96B3100D7EA32 /* CQTitleButton.swift in Sources */,
 				181CF0451BF999C400D7EA32 /* CQCover.swift in Sources */,
 				184A2F651C005F4900945FFF /* SDWebImageCompat.m in Sources */,
+				18CC31061C04A8EA00CC8911 /* MJPhoto.m in Sources */,
 				184A2F8D1C00C2F800945FFF /* MJRefreshHeaderView.m in Sources */,
+				18CC31081C04A8EA00CC8911 /* MJPhotoBrowser.m in Sources */,
 				1802DFC01C032BA600D0559D /* CQFrame.swift in Sources */,
 				184A2F641C005F4900945FFF /* SDImageCache.m in Sources */,
 				184A2F6D1C005F4900945FFF /* UIImage+MultiFormat.m in Sources */,
@@ -832,6 +875,8 @@
 				18CD9D181BF8378900D5AA2B /* CQUITabBar.swift in Sources */,
 				182ABDDB1BFDEA1F00BF9926 /* MBProgressHUD+CQ.m in Sources */,
 				1802DFBC1C030F6100D0559D /* CQUITableCellTableViewCell.swift in Sources */,
+				18CC310A1C04A8EA00CC8911 /* MJPhotoProgressView.m in Sources */,
+				18CC310D1C04A8EA00CC8911 /* SDWebImageManager+MJ.m in Sources */,
 				184A2F681C005F4900945FFF /* SDWebImageDownloaderOperation.m in Sources */,
 				181CF04E1BF9B07800D7EA32 /* CQDiscoverControllerViewController.swift in Sources */,
 				18CD9D1F1BF8446C00D5AA2B /* CQMessageControllerViewController.swift in Sources */,
@@ -840,12 +885,15 @@
 				184A2F6A1C005F4900945FFF /* SDWebImagePrefetcher.m in Sources */,
 				184A2F6E1C005F4900945FFF /* UIImage+WebP.m in Sources */,
 				184A2F8E1C00C2F800945FFF /* UIScrollView+MJExtension.m in Sources */,
+				18CC31091C04A8EA00CC8911 /* MJPhotoLoadingView.m in Sources */,
 				184A2F901C00C2F800945FFF /* UIView+MJExtension.m in Sources */,
 				184A2F691C005F4900945FFF /* SDWebImageManager.m in Sources */,
 				184A2F631C005F4900945FFF /* NSData+ImageContentType.m in Sources */,
 				184A2EEE1C00467A00945FFF /* CQPhoto.swift in Sources */,
 				184A2F8C1C00C2F800945FFF /* MJRefreshFooterView.m in Sources */,
 				184A2EEA1C00415400945FFF /* CQStatus.swift in Sources */,
+				18CC310C1C04A8EA00CC8911 /* MJPhotoView.m in Sources */,
+				18CC310B1C04A8EA00CC8911 /* MJPhotoToolbar.m in Sources */,
 				18FBC94E1BF5CBB40035A534 /* AppDelegate.swift in Sources */,
 				1805F1331BFA26FF006777FF /* CQOneViewController.swift in Sources */,
 				18C5A4BB1C043A5500BBDB77 /* NSDate+CQ.m in Sources */,
@@ -876,11 +924,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		182ABEB11BFE166500BF9926 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire iOS";
-			targetProxy = 182ABEB01BFE166500BF9926 /* PBXContainerItemProxy */;
-		};
 		18FBC9601BF5CBB40035A534 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 18FBC9491BF5CBB40035A534 /* sweibo */;
@@ -993,6 +1036,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sweibo/sweibo-prefix.pch";
 				INFOPLIST_FILE = sweibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.sweibo;
@@ -1009,6 +1054,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sweibo/sweibo-prefix.pch";
 				INFOPLIST_FILE = sweibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.sweibo;
