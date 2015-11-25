@@ -12,9 +12,41 @@ class CQNet: NSObject {
     let latestWeibo = "https://api.weibo.com/2/statuses/friends_timeline.json"
     // 获取最新未读
     let latestUnread = "https://rm.api.weibo.com/2/remind/unread_count.json"
+    // 发送微博文字
+    let sendWeibo = "https://api.weibo.com/2/statuses/update.json"
+    // 发送图片文字
+    let sendPic = "https://upload.api.weibo.com/2/statuses/upload.json"
     lazy var token:AnyObject = (CQAccount.instance()?.access_token)!
     lazy var uid:AnyObject = (CQAccount.instance()?.uid)!
     // 构造器
+    // 发送图片文字
+    
+    func sendPicText(var params:[String : AnyObject], onSuccess:() -> Void) {
+        params["access_token"] = self.token
+        let token:NSString = self.token as! NSString
+        let status:NSString = params["status"] as! NSString
+        Alamofire.upload(.POST, self.sendPic, multipartFormData: {
+            multipartFormData in
+            let mul:MultipartFormData = multipartFormData
+            mul.appendBodyPart(data: params["pic"] as! NSData, name: "pic")
+            mul.appendBodyPart(data: token.dataUsingEncoding(NSUTF8StringEncoding)!, name: "access_token")
+            mul.appendBodyPart(data: status.dataUsingEncoding(NSUTF8StringEncoding)! , name: "status")
+            
+            }, encodingCompletion: {
+                encodingResult in
+                print(encodingResult)
+                onSuccess()
+            })
+    }
+    // 发送微博文字
+    func sendWeibo(var params:[String : AnyObject], onSuccess:() -> Void) {
+        params["access_token"] = self.token
+        Alamofire.request(.POST, self.sendWeibo,parameters: params).responseJSON { (res :Response<AnyObject, NSError>) -> Void in
+            let s = NSString.init(data: res.data!, encoding: NSUTF8StringEncoding)
+            print(s)
+            onSuccess()
+        }
+    }
     // 最新未读消息
     func getLatesUnread(var params:[String : AnyObject], onSuccess:(data:AnyObject) -> Void) {
         params["access_token"] = self.token

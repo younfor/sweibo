@@ -8,10 +8,15 @@
 
 import UIKit
 
+protocol CQSendToolBarDelegate {
+    func openPic()
+}
 class CQSendToolBar: UIToolbar {
 
-    
+    var cqdelegate:CQSendToolBarDelegate?
     @IBAction func openPic(sender: AnyObject) {
+        // 打开相册 - 代理
+        self.cqdelegate?.openPic()
     }
     @IBAction func closeKeyBoard(sender: AnyObject) {
         self.superview!.endEditing(true)

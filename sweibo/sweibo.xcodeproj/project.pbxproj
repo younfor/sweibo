@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1801192F1C05F68C00CF6663 /* CQPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801192E1C05F68C00CF6663 /* CQPhotosView.swift */; settings = {ASSET_TAGS = (); }; };
 		1802DFBC1C030F6100D0559D /* CQUITableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802DFBA1C030F6100D0559D /* CQUITableCellTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		1802DFBD1C030F6100D0559D /* CQUITableCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1802DFBB1C030F6100D0559D /* CQUITableCellTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		1802DFC01C032BA600D0559D /* CQFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802DFBF1C032BA600D0559D /* CQFrame.swift */; settings = {ASSET_TAGS = (); }; };
@@ -160,6 +161,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1801192E1C05F68C00CF6663 /* CQPhotosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQPhotosView.swift; sourceTree = "<group>"; };
 		1802DFBA1C030F6100D0559D /* CQUITableCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQUITableCellTableViewCell.swift; sourceTree = "<group>"; };
 		1802DFBB1C030F6100D0559D /* CQUITableCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CQUITableCellTableViewCell.xib; sourceTree = "<group>"; };
 		1802DFBF1C032BA600D0559D /* CQFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQFrame.swift; sourceTree = "<group>"; };
@@ -573,6 +575,7 @@
 				189885741C05CE0700206ECA /* CQTextView.swift */,
 				189885761C05DA1900206ECA /* CQSendToolBar.swift */,
 				189885781C05DA2E00206ECA /* CQSendToolBar.xib */,
+				1801192E1C05F68C00CF6663 /* CQPhotosView.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -880,6 +883,7 @@
 				184A2F671C005F4900945FFF /* SDWebImageDownloader.m in Sources */,
 				184A2EEC1C0044CA00945FFF /* CQUser.swift in Sources */,
 				189885771C05DA1900206ECA /* CQSendToolBar.swift in Sources */,
+				1801192F1C05F68C00CF6663 /* CQPhotosView.swift in Sources */,
 				184A2F701C005F4900945FFF /* UIImageView+WebCache.m in Sources */,
 				184A2F6B1C005F4900945FFF /* UIButton+WebCache.m in Sources */,
 				188429D91BFB361D006E04D8 /* CQCollectionViewCell.swift in Sources */,

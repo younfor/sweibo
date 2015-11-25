@@ -14,7 +14,7 @@
     MBProgressHUD *mb = [MBProgressHUD showHUDAddedTo:v animated:true];
     mb.labelText = @"加载中...";
     mb.dimBackground = YES;
-    [mb hide:YES afterDelay:5.0];
+    [mb hide:YES afterDelay:10.0];
     [mb removeFromSuperViewOnHide];
 }
 

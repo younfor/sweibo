@@ -368,6 +368,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="sendBtn" destination="FAh-ju-NoA" id="axT-u7-Sr3"/>
+                        <outlet property="textView" destination="K8D-Mt-oDg" id="Jiz-vO-y6e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WYb-9S-7Wj" userLabel="First Responder" sceneMemberID="firstResponder"/>
