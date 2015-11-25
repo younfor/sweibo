@@ -130,7 +130,7 @@
                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rbz-rW-yBL" userLabel="tool">
                         <rect key="frame" x="0.0" y="141" width="320" height="36"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx7-cs-wnN">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx7-cs-wnN">
                                 <rect key="frame" x="26" y="9" width="46" height="18"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

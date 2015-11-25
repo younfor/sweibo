@@ -53,6 +53,10 @@
 		188C2F3C1BFB7D6D00EAD81C /* CQAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C2F3B1BFB7D6D00EAD81C /* CQAuthViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		188C2F411BFB84B100EAD81C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C2F401BFB84B100EAD81C /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 		188D167A1C01FF620067B2C5 /* CQUnread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D16791C01FF620067B2C5 /* CQUnread.swift */; settings = {ASSET_TAGS = (); }; };
+		189885731C05CBB600206ECA /* CQUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189885721C05CBB600206ECA /* CQUIViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		189885751C05CE0700206ECA /* CQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189885741C05CE0700206ECA /* CQTextView.swift */; settings = {ASSET_TAGS = (); }; };
+		189885771C05DA1900206ECA /* CQSendToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189885761C05DA1900206ECA /* CQSendToolBar.swift */; settings = {ASSET_TAGS = (); }; };
+		189885791C05DA2E00206ECA /* CQSendToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189885781C05DA2E00206ECA /* CQSendToolBar.xib */; settings = {ASSET_TAGS = (); }; };
 		18A3CA9F1C03642800877A6C /* CQString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CA9E1C03642800877A6C /* CQString.swift */; settings = {ASSET_TAGS = (); }; };
 		18C5A4BB1C043A5500BBDB77 /* NSDate+CQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5A4BA1C043A5500BBDB77 /* NSDate+CQ.m */; settings = {ASSET_TAGS = (); }; };
 		18C5A50D1C04991000BBDB77 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C5A5001C0498E200BBDB77 /* Alamofire.framework */; };
@@ -230,6 +234,10 @@
 		188C2F3F1BFB84B000EAD81C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		188C2F401BFB84B100EAD81C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		188D16791C01FF620067B2C5 /* CQUnread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQUnread.swift; sourceTree = "<group>"; };
+		189885721C05CBB600206ECA /* CQUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQUIViewController.swift; sourceTree = "<group>"; };
+		189885741C05CE0700206ECA /* CQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQTextView.swift; sourceTree = "<group>"; };
+		189885761C05DA1900206ECA /* CQSendToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQSendToolBar.swift; sourceTree = "<group>"; };
+		189885781C05DA2E00206ECA /* CQSendToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CQSendToolBar.xib; sourceTree = "<group>"; };
 		18A3CA9E1C03642800877A6C /* CQString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQString.swift; sourceTree = "<group>"; };
 		18C5A4B91C043A5500BBDB77 /* NSDate+CQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CQ.h"; sourceTree = "<group>"; };
 		18C5A4BA1C043A5500BBDB77 /* NSDate+CQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CQ.m"; sourceTree = "<group>"; };
@@ -296,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				180783EF1BF79B1300C5325E /* CQUITabBarController.swift */,
+				189885721C05CBB600206ECA /* CQUIViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -561,6 +570,9 @@
 			isa = PBXGroup;
 			children = (
 				18CD9D171BF8378900D5AA2B /* CQUITabBar.swift */,
+				189885741C05CE0700206ECA /* CQTextView.swift */,
+				189885761C05DA1900206ECA /* CQSendToolBar.swift */,
+				189885781C05DA2E00206ECA /* CQSendToolBar.xib */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -817,6 +829,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CC31071C04A8EA00CC8911 /* MJPhotoBrowser.bundle in Resources */,
+				189885791C05DA2E00206ECA /* CQSendToolBar.xib in Resources */,
 				18FBC9551BF5CBB40035A534 /* Assets.xcassets in Resources */,
 				1805F1341BFA26FF006777FF /* CQOneViewController.xib in Resources */,
 				1802DFBD1C030F6100D0559D /* CQUITableCellTableViewCell.xib in Resources */,
@@ -866,6 +879,7 @@
 				184A2F6C1C005F4900945FFF /* UIImage+GIF.m in Sources */,
 				184A2F671C005F4900945FFF /* SDWebImageDownloader.m in Sources */,
 				184A2EEC1C0044CA00945FFF /* CQUser.swift in Sources */,
+				189885771C05DA1900206ECA /* CQSendToolBar.swift in Sources */,
 				184A2F701C005F4900945FFF /* UIImageView+WebCache.m in Sources */,
 				184A2F6B1C005F4900945FFF /* UIButton+WebCache.m in Sources */,
 				188429D91BFB361D006E04D8 /* CQCollectionViewCell.swift in Sources */,
@@ -891,11 +905,13 @@
 				184A2F631C005F4900945FFF /* NSData+ImageContentType.m in Sources */,
 				184A2EEE1C00467A00945FFF /* CQPhoto.swift in Sources */,
 				184A2F8C1C00C2F800945FFF /* MJRefreshFooterView.m in Sources */,
+				189885731C05CBB600206ECA /* CQUIViewController.swift in Sources */,
 				184A2EEA1C00415400945FFF /* CQStatus.swift in Sources */,
 				18CC310C1C04A8EA00CC8911 /* MJPhotoView.m in Sources */,
 				18CC310B1C04A8EA00CC8911 /* MJPhotoToolbar.m in Sources */,
 				18FBC94E1BF5CBB40035A534 /* AppDelegate.swift in Sources */,
 				1805F1331BFA26FF006777FF /* CQOneViewController.swift in Sources */,
+				189885751C05CE0700206ECA /* CQTextView.swift in Sources */,
 				18C5A4BB1C043A5500BBDB77 /* NSDate+CQ.m in Sources */,
 				180783F01BF79B1300C5325E /* CQUITabBarController.swift in Sources */,
 				184A2F711C005F4900945FFF /* UIView+WebCacheOperation.m in Sources */,

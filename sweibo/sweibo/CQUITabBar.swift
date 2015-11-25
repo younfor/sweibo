@@ -46,8 +46,18 @@ class CQUITabBar: UITabBar {
         btn.sizeToFit()
         self.addSubview(btn)
         btn.center = CGPointMake(CGFloat(w / 2), CGFloat(h / 2))
+        // 设置事件
+        btn.addTarget(self, action: "send", forControlEvents: UIControlEvents.TouchUpInside)
         
-        
+    }
+    // 发送新微博
+    func send() {
+        print("发送微博")
+        let story:UIStoryboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let nav:UINavigationController = story.instantiateViewControllerWithIdentifier("sendNavigation") as! UINavigationController
+        let win:UIWindow = UIApplication.sharedApplication().keyWindow!
+        let controller:UIViewController = win.rootViewController!
+        controller.presentViewController(nav, animated: true, completion: nil)
     }
 
 }
