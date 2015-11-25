@@ -39,12 +39,13 @@ class CQUIViewController: UIViewController,CQSendToolBarDelegate,UIImagePickerCo
         // 图片
             let sendImg = self.photoImages[0] as! UIImage
             let data = UIImagePNGRepresentation(sendImg)!
-            print(data.length)
+            //print(data.length)
             self.cqnet.sendPicText(["status":text as NSString,"pic":data], onSuccess: { () -> Void in
                 MBProgressHUD.hide(self.view)
                  self.dismissViewControllerAnimated(true, completion: nil)
             })
         }
+        self.photoImages.removeAllObjects()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,7 +87,7 @@ class CQUIViewController: UIViewController,CQSendToolBarDelegate,UIImagePickerCo
         
     }
     func onKeyBoard(note:NSNotification) {
-        print(note.userInfo)
+        //print(note.userInfo)
         let durtion = note.userInfo![UIKeyboardAnimationDurationUserInfoKey]?.floatValue
         let f = note.userInfo![UIKeyboardFrameEndUserInfoKey]?.CGRectValue
         if f?.origin.y == self.view.frame.height {

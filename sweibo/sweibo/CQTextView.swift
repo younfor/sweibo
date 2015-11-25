@@ -13,7 +13,7 @@ class CQTextView: UITextView,UITextViewDelegate {
     lazy var placeholder:UILabel = UILabel()
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        print("初始化text")
+        //print("初始化text")
         self.becomeFirstResponder()
         self.editable = true
         self.alwaysBounceVertical = true
@@ -27,11 +27,11 @@ class CQTextView: UITextView,UITextViewDelegate {
 
     }
     func textChange() {
-        print("通知键盘")
+        //print("通知键盘")
         self.placeholder.hidden = true
     }
     override func shouldChangeTextInRange(range: UITextRange, replacementText text: String) -> Bool {
-        print("hehlo")
+        //print("hehlo")
         return true
     }
     

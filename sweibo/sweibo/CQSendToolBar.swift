@@ -20,7 +20,7 @@ class CQSendToolBar: UIToolbar {
     }
     @IBAction func closeKeyBoard(sender: AnyObject) {
         self.superview!.endEditing(true)
-        print("a")
+        //print("a")
     }
     /*
     // Only override drawRect: if you perform custom drawing.

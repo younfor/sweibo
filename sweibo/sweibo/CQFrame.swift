@@ -34,7 +34,7 @@ class CQFrame: NSObject {
             let w:CGFloat = (UIScreen.mainScreen().bounds.width - (CGFloat)(cols+1) * margin ) / (CGFloat)(cols)
             self.heightRePic = (CGFloat)(row) * (margin + w)
         }
-        print("text: \(status.text)h1:\(self.heightMainPic) h2:\(self.heightRePic)")
+        //print("text: \(status.text)h1:\(self.heightMainPic) h2:\(self.heightRePic)")
         // retweet
         if status.retweeted_status != nil {
             let text1: NSString = NSString(CString: (status.retweeted_status?.text!.cStringUsingEncoding(NSUTF8StringEncoding))!,

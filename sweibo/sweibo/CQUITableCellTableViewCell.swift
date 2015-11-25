@@ -43,6 +43,8 @@ class CQUITableCellTableViewCell: UITableViewCell {
     var statusRE:CQStatus?
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.picMain.translatesAutoresizingMaskIntoConstraints = false
+        self.picRe.translatesAutoresizingMaskIntoConstraints = false
         // Initialization code
     }
     func updatePics(data:CQStatus) {
